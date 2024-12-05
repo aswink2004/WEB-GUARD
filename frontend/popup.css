@@ -1,0 +1,35 @@
+
+
+textarea {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: both;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #C19F5F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #675943;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
