@@ -4,6 +4,12 @@ from flask_cors import CORS
 import requests
 from bs4 import BeautifulSoup
 import re
+import joblib
+with open('models/ensemble_model.pkl', 'rb') as f:
+    ensemble_model = pickle.load(f)
+
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})

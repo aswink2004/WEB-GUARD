@@ -13,7 +13,7 @@ import pickle
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-df = pd.read_csv('C:/Users/KamarajanVD/PycharmProjects/WebGuard/frontend/Spam Email raw text for NLP.csv')
+df = pd.read_csv('C:\Users\HP\WEB-GUARD\frontend\Spam Email raw text for NLP.csv')
 
 lemmatizer = WordNetLemmatizer()
 stopwords_list = set(stopwords.words('english'))
